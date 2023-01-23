@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFProyecto", "WPFProyecto\WPFProyecto.csproj", "{8CD00451-D6D9-4476-9EA6-52E91D909FE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CD00451-D6D9-4476-9EA6-52E91D909FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD00451-D6D9-4476-9EA6-52E91D909FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD00451-D6D9-4476-9EA6-52E91D909FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD00451-D6D9-4476-9EA6-52E91D909FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E17D0140-55C8-42BE-9631-1ED93AD8BBAD}
+	EndGlobalSection
+EndGlobal
