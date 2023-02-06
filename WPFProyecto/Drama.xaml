@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Drama" Height="450" Width="800">
     <Grid>
-        
+        <Rectangle Stroke="Black" RenderTransformOrigin="0.571,0.51" Fill="#FF01579B" Margin="0,68,0,0"/>
+        <Rectangle Fill="#FF002F6C" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+        <Image x:Name="ImagenBoton" MouseMove="ImagenBoton_MouseMove" Margin="712.799,346.517,31.201,24.483" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+
     </Grid>
 </Window>

@@ -124,5 +124,8 @@
   <ItemGroup>
     <Resource Include="comediaPelicula.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="undo_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

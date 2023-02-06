@@ -19,9 +19,19 @@ namespace WPFProyecto
     /// </summary>
     public partial class Drama : Window
     {
-        public Drama()
+        MainWindow principal;
+        public Drama(MainWindow menuprincipal)
         {
+            principal = menuprincipal;
             InitializeComponent();
+        }
+
+        
+
+        private void ImagenBoton_MouseMove(object sender, MouseEventArgs e)
+        {
+            principal.Show();
+            this.Hide();
         }
     }
 }

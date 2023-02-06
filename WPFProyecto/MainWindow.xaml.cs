@@ -20,9 +20,33 @@ namespace WPFProyecto
     /// </summary>
     public partial class MainWindow : Window
     {
+        Accion ventanaAccion = new Accion();
+        Drama ventanaDrama;
+        Window2 ventanaComedia = new Window2();
         public MainWindow()
         {
+            ventanaDrama = new Drama(this);
             InitializeComponent();
         }
+
+        private void Button_ClickAccion(object sender, RoutedEventArgs e)
+        {
+            ventanaAccion.Show();
+            this.Hide();
+        }
+
+        private void Button_ClickDrama(object sender, RoutedEventArgs e)
+        {
+            ventanaDrama.Show();
+            this.Hide();
+        }
+        
+        private void Button_ClickComedia(object sender, RoutedEventArgs e)
+        {
+            ventanaComedia.Show();
+            this.Hide();
+        }
+
+        
     }
 }
