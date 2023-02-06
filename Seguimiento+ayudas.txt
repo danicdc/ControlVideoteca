@@ -11,3 +11,6 @@ Indicar que será realizado en C# y la interfaz con ayuda de XAML, además la po
 v 0.1 6/02/2023
 Nuevas ventanas de interfaz y diseño de colores.
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+v 0.2 6/02/2023
+Comunicación entre ventanas y botón de "back" en la ventana Drama.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
