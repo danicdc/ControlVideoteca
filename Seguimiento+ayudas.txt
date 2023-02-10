@@ -16,3 +16,8 @@ Comunicación entre ventanas y botón de "back" en la ventana Drama.
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Hacerlo Público
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10/02/2023
+Además cambia el nombre en función de su Objetivo
+(Deberás reinvitarme, y tu ordenador ya no lo reconocerá así que primero sube lo trabajado y después clona tu repositorio
+con el nuevo nombre)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
