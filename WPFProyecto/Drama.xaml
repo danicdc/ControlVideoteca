@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="Drama" Height="450" Width="800">
     <Grid>
-        <Rectangle Stroke="Black" RenderTransformOrigin="0.571,0.51" Fill="#FF01579B" Margin="0,68,0,0"/>
-        <Rectangle Fill="#FF002F6C" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
-        <Image x:Name="ImagenBoton" MouseMove="ImagenBoton_MouseMove" Margin="712.799,346.517,31.201,24.483" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+        <Rectangle Stroke="Black" RenderTransformOrigin="0.571,0.51" Fill="#FF6EC6FF" Margin="0,68,0,0"/>
+        <Rectangle Fill="#FF2196F3" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+        <Image x:Name="ImagenBotonDrama" MouseLeftButtonDown="ImagenBotonDrama_MouseLeftButtonDown" Margin="712.799,346.517,31.201,24.483" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.5" Margin="230,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" FontSize="24"><Run Text="&#x9;    "/><Run FontWeight="Bold" Text="Drama"/></TextBlock>
+        <Image Margin="623,10,121,361" Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+        <Image Margin="711,10,33,361" Source="delete_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

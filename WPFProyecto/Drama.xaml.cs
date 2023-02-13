@@ -28,7 +28,9 @@ namespace WPFProyecto
 
         
 
-        private void ImagenBoton_MouseMove(object sender, MouseEventArgs e)
+        
+
+        private void ImagenBotonDrama_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             principal.Show();
             this.Hide();

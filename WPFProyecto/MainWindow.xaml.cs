@@ -20,12 +20,14 @@ namespace WPFProyecto
     /// </summary>
     public partial class MainWindow : Window
     {
-        Accion ventanaAccion = new Accion();
+        Accion ventanaAccion;
         Drama ventanaDrama;
-        Window2 ventanaComedia = new Window2();
+        Window2 ventanaComedia;
         public MainWindow()
         {
             ventanaDrama = new Drama(this);
+            ventanaAccion = new Accion(this);
+            ventanaComedia = new Window2(this);
             InitializeComponent();
         }
 

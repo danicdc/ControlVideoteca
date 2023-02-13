@@ -8,8 +8,14 @@
         Title="Accion" Height="450" Width="800">
     <Grid>
         <Rectangle Fill="#FF002F6C" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
-        <Rectangle Fill="#FF002F6C" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
-        <Rectangle Stroke="Black" RenderTransformOrigin="0.571,0.51" Fill="#FF01579B" Margin="0,68,0,0"/>
+        <Rectangle Fill="#FF2196F3" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+        <Rectangle Stroke="Black" RenderTransformOrigin="0.571,0.51" Fill="#FF6EC6FF" Margin="0,68,0,0"/>
+        <Image x:Name="ImagenBotonComedia" MouseLeftButtonDown="ImagenBotonComedia_MouseLeftButtonDown" Margin="711,361,33,10" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="39.5" Margin="230,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" FontSize="24"><Run Text="&#x9;    "/><Run FontWeight="Bold" Text="Acción"/></TextBlock>
+        <Image x:Name="AddAccion" MouseLeftButtonDown="AddAccion_MouseLeftButtonDown" Margin="623,10,121,361" Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" OpacityMask="White"/>
+        <Image Margin="711,10,33,361" Source="delete_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+        <TextBlock x:Name="TextAccion" Height="68" Margin="30,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="266" RenderTransformOrigin="0.391,1.912"/>
+        
 
     </Grid>
 </Window>

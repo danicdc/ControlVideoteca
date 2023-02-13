@@ -19,9 +19,17 @@ namespace WPFProyecto
     /// </summary>
     public partial class Window2 : Window
     {
-        public Window2()
+        MainWindow principal;
+        public Window2(MainWindow menuPrincipal)
         {
+            principal = menuPrincipal;
             InitializeComponent();
+        }
+
+        private void ImagenBotonComedia_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            principal.Show();
+            this.Hide();
         }
     }
 }

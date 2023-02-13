@@ -58,6 +58,7 @@
     <Compile Include="Drama.xaml.cs">
       <DependentUpon>Drama.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pelicula.cs" />
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
@@ -126,6 +127,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="undo_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="add_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="delete_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="settings_FILL0_wght400_GRAD0_opsz48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
