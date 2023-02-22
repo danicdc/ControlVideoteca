@@ -5,14 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFProyecto"
         mc:Ignorable="d"
-        Title="Drama" Height="450" Width="800">
+        Title="Drama" SizeToContent="WidthAndHeight">
     <Grid>
-        <Rectangle Stroke="Black" RenderTransformOrigin="0.571,0.51" Fill="#FF6EC6FF" Margin="0,68,0,0"/>
-        <Rectangle Fill="#FF2196F3" HorizontalAlignment="Left" Height="68" Stroke="Black" VerticalAlignment="Top" Width="792"/>
-        <Image x:Name="ImagenBotonDrama" MouseLeftButtonDown="ImagenBotonDrama_MouseLeftButtonDown" Margin="712.799,346.517,31.201,24.483" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="Left" Height="39.5" Margin="230,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="327" FontSize="24"><Run Text="&#x9;    "/><Run FontWeight="Bold" Text="Drama"/></TextBlock>
-        <Image Margin="623,10,121,361" Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
-        <Image Margin="711,10,33,361" Source="delete_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <Rectangle Grid.Row="0" Fill="#FF2196F3" Stroke="Black"/>
+        <TextBlock Grid.Row="0" Margin="10" Text="Drama" FontSize="24" FontWeight="Bold"/>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Image x:Name="ImagenBotonDrama" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48" MouseLeftButtonDown="ImagenBotonDrama_MouseLeftButtonDown"/>
+            <Image Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48"/>
+            <Image Source="delete_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48"/>
+        </StackPanel>
+
+        <Rectangle Grid.Row="1" Fill="#FF6EC6FF" Stroke="Black"/>
     </Grid>
 </Window>
+
