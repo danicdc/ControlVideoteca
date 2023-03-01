@@ -58,6 +58,9 @@
     <Compile Include="Drama.xaml.cs">
       <DependentUpon>Drama.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InsertaPelicula.xaml.cs">
+      <DependentUpon>InsertaPelicula.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pelicula.cs" />
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
@@ -67,6 +70,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Drama.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="InsertaPelicula.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

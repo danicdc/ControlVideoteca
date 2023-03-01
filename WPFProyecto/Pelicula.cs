@@ -20,7 +20,11 @@ namespace WPFProyecto
             
         }
 
-        public int MyProperty { get; set; }
+        public String MiNombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
 
     }
 }

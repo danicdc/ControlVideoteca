@@ -35,5 +35,12 @@ namespace WPFProyecto
             principal.Show();
             this.Hide();
         }
+
+
+        private void AddDrama_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            InsertaPelicula inserta = new InsertaPelicula();
+            inserta.Show();
+        }
     }
 }

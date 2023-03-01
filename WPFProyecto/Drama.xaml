@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFProyecto"
         mc:Ignorable="d"
-        Title="Drama" SizeToContent="WidthAndHeight">
+        Title="Drama" Width="800" Height="600">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -17,7 +17,7 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
             <Image x:Name="ImagenBotonDrama" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48" MouseLeftButtonDown="ImagenBotonDrama_MouseLeftButtonDown"/>
-            <Image Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48"/>
+            <Image Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48" x:Name="AddDrama" MouseLeftButtonDown="AddDrama_MouseLeftButtonDown"/>
             <Image Source="delete_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48"/>
         </StackPanel>
 

@@ -17,7 +17,7 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
             <Image x:Name="ImagenBotonComedia" Source="undo_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48" MouseLeftButtonDown="ImagenBotonComedia_MouseLeftButtonDown"/>
-            <Image Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48"/>
+            <Image Source="add_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48" x:Name="AddComedia" MouseLeftButtonDown="AddComedia_MouseLeftButtonDown"/>
             <Image Source="delete_FILL0_wght400_GRAD0_opsz48.png" Stretch="Fill" Width="48" Height="48"/>
         </StackPanel>
 
