@@ -4,3 +4,5 @@ El proyecto es una aplicación que es una videoteca personal que me muestra mis 
 
 Enlace de odoo: https://flixvideo.odoo.com
 
+v.03 nuevas funcionalidades
+
