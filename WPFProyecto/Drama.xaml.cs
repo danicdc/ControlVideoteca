@@ -39,8 +39,8 @@ namespace WPFProyecto
 
         private void AddDrama_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            InsertaPelicula inserta = new InsertaPelicula();
-            inserta.Show();
+            /*InsertaPelicula inserta = new InsertaPelicula(this);
+            inserta.Show();*/
         }
     }
 }

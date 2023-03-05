@@ -12,6 +12,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -23,9 +24,12 @@
         <TextBlock Grid.Row="1" Grid.Column="0" Text="Director" Background="#FF2196F3"/>
         <TextBox Grid.Row="1" Grid.Column="1" x:Name="textoDirector" Background="#FF6EC6FF"/>
         <TextBlock Grid.Row="2" Grid.Column="0" Text="Año" Background="#FF2196F3"/>
-        <TextBox Grid.Row="2" Grid.Column="1" x:Name="textoAño" Background="#FF6EC6FF"/>
-        <Button Content="Aceptar" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="50" Background="#FF6EC6FF" Margin="0,27" />
-        <Button Content="Cancelar" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="50"  Background="#FF6EC6FF" Margin="0,27" />
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="textoAnio" Background="#FF6EC6FF"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Categoria" Background="#FF2196F3"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="textoCategoria" Background="#FF6EC6FF"/>
+
+        <Button Content="Aceptar" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="50" Background="#FF6EC6FF" Click="Button_Click"  />
+        <Button Content="Cancelar" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="50"  Background="#FF6EC6FF" />
     </Grid>
 </Window>
 

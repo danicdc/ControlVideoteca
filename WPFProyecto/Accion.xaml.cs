@@ -21,16 +21,20 @@ namespace WPFProyecto
     public partial class Accion : Window
     {
         MainWindow principal;
-       
-        Pelicula pelicula;
+
+        public string Titulo { get; set; }
+        public string Director { get; set; }
+        public int anio { get; set; }
+
+
         ArrayList myAL = new ArrayList();
     
         public Accion(MainWindow menuPrincipal)
         {
-            myAL.Add(new Pelicula("Los 7 samurai", 1954, "Akira Kurosawa"));
-            myAL.Add(new Pelicula("Terminator 2", 1992, "James Cameron"));
-            myAL.Add(new Pelicula("Matrix", 2000, "Wachowski Sisters"));
-            myAL.Add(new Pelicula("Die hard", 1989, "John McTiernan"));
+            
+            myAL.Add(new Pelicula(Titulo,anio, Director));
+            myAL.ToString();
+            
 
             principal = menuPrincipal;
             
@@ -47,8 +51,9 @@ namespace WPFProyecto
         private void AddAccion_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
 
-            InsertaPelicula inserta = new InsertaPelicula();
+            InsertaPelicula inserta = new InsertaPelicula(this);
             inserta.Show();
+            this.Hide();
 
         }
     }
