@@ -20,6 +20,10 @@ namespace WPFProyecto
     public partial class Window2 : Window
     {
         MainWindow principal;
+        public string Titulo { get; set; }
+        public string Director { get; set; }
+        public int anio { get; set; }
+
         public Window2(MainWindow menuPrincipal)
         {
             principal = menuPrincipal;
@@ -34,8 +38,11 @@ namespace WPFProyecto
 
         private void AddComedia_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-           /* InsertaPelicula inserta = new InsertaPelicula(this);
-            inserta.Show();*/
+            Accion ac1 = new Accion(principal);
+            Drama d2 = new Drama(principal);
+            InsertaPelicula inserta = new InsertaPelicula(ac1,d2, this);
+            inserta.Show();
+            this.Hide();
         }
     }
 }

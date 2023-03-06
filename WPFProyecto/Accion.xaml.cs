@@ -50,8 +50,9 @@ namespace WPFProyecto
 
         private void AddAccion_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-
-            InsertaPelicula inserta = new InsertaPelicula(this);
+            Drama dr1 = new Drama(principal);
+            Window2 w2 = new Window2(principal);
+            InsertaPelicula inserta = new InsertaPelicula(this,dr1,w2) ;
             inserta.Show();
             this.Hide();
 
